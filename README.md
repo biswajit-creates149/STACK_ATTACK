@@ -4,7 +4,7 @@
 
 Campus information and services are currently scattered across disconnected platforms — WhatsApp groups, emails, notice boards, and more — making it hard for students, staff, and lecturers to stay reliably informed or get things done without confusion.
 
-**STACK_ATTACK** is a single, unified platform that brings together academic, administrative, hostel, events, complaints, and other campus services into one place — so everyone in the NITK community can access and update information without digging through fragmented channels.
+**CAMPUS NEXT** is a single, unified platform that brings together academic, administrative, hostel, events, complaints, and other campus services into one place — so everyone in the NITK community can access and update information without digging through fragmented channels.
 
 ## What It Does
 
