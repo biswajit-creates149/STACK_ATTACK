@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Complaints | CampusConnect
+  </title>
+
+  <link rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+  <div class="container nav-inner">
+
+    <a class="brand"
+       href="index.html">
+
+      CampusConnect
+
+    </a>
+
+
+    <button class="menu-btn"
+            onclick="toggleMenu()">
+
+      ☰
+
+    </button>
+
+
+    <nav id="navMenu">
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="notices.html">
+        Notices
+      </a>
+
+      <a href="services.html">
+        Services
+      </a>
+
+      <a href="lost-found.html">
+        Lost & Found
+      </a>
+
+      <a class="active"
+         href="complaints.html">
+
+        Complaints
+
+      </a>
+
+      <a href="dashboard.html">
+        Dashboard
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+<main class="container section">
+
+
+  <p class="eyebrow">
+    Student support
+  </p>
+
+
+  <h1>
+    Complaints & Requests
+  </h1>
+
+
+  <p class="muted">
+
+    Report a campus issue. Your
+    submission will be stored in this
+    demo browser.
+
+  </p>
+
+
+
+  <div class="two-column">
+
+
+    <section class="panel">
+
+
+      <form id="complaintForm">
+
+
+        <div class="form-group">
+
+          <label for="category">
+            Category
+          </label>
+
+          <select id="category" required>
+
+            <option value="">
+              Select category
+            </option>
+
+            <option>
+              Hostel
+            </option>
+
+            <option>
+              Mess
+            </option>
+
+            <option>
+              Library
+            </option>
+
+            <option>
+              Classroom
+            </option>
+
+            <option>
+              Wi-Fi / IT
+            </option>
+
+            <option>
+              Cleanliness
+            </option>
+
+            <option>
+              Other
+            </option>
+
+          </select>
+
+        </div>
+
+
+
+        <div class="form-group">
+
+          <label for="location">
+            Location
+          </label>
+
+          <input
+            id="location"
+            required
+            placeholder="Where is the problem?">
+
+        </div>
+
+
+
+        <div class="form-group">
+
+          <label for="description">
+            Description
+          </label>
+
+          <textarea
+            id="description"
+            required
+            placeholder="Describe the problem">
+          </textarea>
+
+        </div>
+
+
+
+        <button
+          class="btn"
+          type="submit">
+
+          Submit Complaint
+
+        </button>
+
+
+      </form>
+
+
+      <p id="complaintMessage"
+         class="form-message">
+      </p>
+
+
+    </section>
+
+
+
+    <section class="panel">
+
+      <h2>
+        My Complaints
+      </h2>
+
+      <div id="complaintList"></div>
+
+    </section>
+
+
+  </div>
+
+
+</main>
+
+
+
+<footer class="footer">
+
+  <div class="container">
+
+    <p>
+      © 2026 CampusConnect
+    </p>
+
+  </div>
+
+</footer>
+
+
+<script src="js/main.js"></script>
+
+<script src="js/app.js"></script>
+
+
+</body>
+</html>
